@@ -13,6 +13,6 @@ jobs:
       - name: Hello world
         uses: ./.github/action/hello-world/
         with:
-          who-to-greet: '名前を入れるyo'
+          who-to-greet: 'Name'
     - name: Get the output time
       run: echo "The time was  ${{ steps.hello.outputs.time }}"
