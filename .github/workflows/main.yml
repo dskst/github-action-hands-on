@@ -11,6 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world
+        id: hello
         uses: ./.github/action/hello-world
         with:
           who-to-greet: '名前だyo'
